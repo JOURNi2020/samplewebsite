@@ -90,7 +90,7 @@ body {
 }
 
 .button .btn {
-  background-color: purple;
+  background-color: rgb(125, 210, 255, 0.65);
   border: 3px solid white;
 }
 
@@ -99,7 +99,7 @@ body {
     text-align: center;
 }
 
-table {
+/*table {
     margin-left: auto;
     margin-right: auto;
 
@@ -110,6 +110,10 @@ table {
 
 tr:nth-child(odd) {
     background-color: white;
+}*/
+
+table {
+  table-layout: fixed;
 }
 
 td {
@@ -123,7 +127,7 @@ td {
 }
 
 .class-body p {
-  padding: 30px 0px 0px 10px;
+  padding: 15px 0px 0px 0px;
 }
 
 
